@@ -18,25 +18,25 @@ TODO :
 Nous décidons d’exploiter la stratégie de faire une seule grande table unique.
 
 
-client 
-- Main.java #Main de l’application, notamment appelé à par GenerateData
+├─ client 
+    ├─ Main.java #Main de l’application, notamment appelé à par GenerateData
 
-dao
-- PersonDAO.java #Traite les requêtes JPA propre à Perso
+├─ dao
+    ├─ PersonDAO.java #Traite les requêtes JPA propre à Perso
 
-metier
-- Chauffage.java
-- Equipement.java
-- FactoryData.java    #Permet de générer des données pour remplir la base
-- Home.java
-- PeripheriqueIntelligents.java     #Abstract class
-- Person.java
-- View.java
+├─ metier
+    ├─ Chauffage.java
+    ├─ Equipement.java
+    ├─ FactoryData.java    #Permet de générer des données pour remplir la base
+    ├─ Home.java
+    ├─ PeripheriqueIntelligents.java     #Abstract class
+    ├─ Person.java
+    ├─ View.java
 
-rest #Représente les urls possibles d’accès aux données
-- Rest_Person.java       #Concerne l’accès aux urls de Person
-- Rest_Home.java         #Concerne l’accès aux urls de Home
-- GenerateData.java      #Permet de peupler la base
+├─ rest #Représente les urls possibles d’accès aux données
+    ├─ Rest_Person.java       #Concerne l’accès aux urls de Person
+    ├─ Rest_Home.java         #Concerne l’accès aux urls de Home
+    ├─  GenerateData.java      #Permet de peupler la base
 
 
 Pour faire tourner vous devez : 
