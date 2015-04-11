@@ -17,13 +17,13 @@ TODO :
  
 Nous décidons d’exploiter la stratégie de faire une seule grande table unique.
 
-#client  
+### client  
     ├─ Main.java  : Main de l’application, notamment appelé à par GenerateData  
 
-# dao  
+### dao  
     ├─ PersonDAO.java : Traite les requêtes JPA propre à Perso  
  
-# metier  
+### metier  
     ├─ Chauffage.java  
     ├─ Equipement.java  
     ├─ FactoryData.java    : Permet de générer des données pour remplir la base  
@@ -32,7 +32,7 @@ Nous décidons d’exploiter la stratégie de faire une seule grande table uniqu
     ├─ Person.java  
     ├─ View.java  
 
-# rest : Représente les urls possibles d’accès aux données  
+### rest : Représente les urls possibles d’accès aux données  
     ├─ Rest_Person.java       : Concerne l’accès aux urls de Person  
     ├─ Rest_Home.java         : Concerne l’accès aux urls de Home  
     ├─  GenerateData.java     : Permet de peupler la base  
