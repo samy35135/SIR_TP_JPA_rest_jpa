@@ -1,6 +1,5 @@
 package api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir;
 
-import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 

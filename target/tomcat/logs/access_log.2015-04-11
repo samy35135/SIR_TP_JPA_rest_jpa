@@ -26,3 +26,17 @@
 0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:15:23:38 +0200] "GET /rest/personne/id/5 HTTP/1.1" 200 175 http-bio-8080-exec-1 2811
 0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:15:23:43 +0200] "GET /rest/personne/id/0 HTTP/1.1" 204 - http-bio-8080-exec-2 372
 0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:15:23:47 +0200] "GET /rest/personne/id/1 HTTP/1.1" 200 755 http-bio-8080-exec-3 296
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:17:39:40 +0200] "GET /rest/servlet HTTP/1.1" 404 - http-bio-8080-exec-1 43
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:17:39:45 +0200] "GET /rest/servlet/personneinfo HTTP/1.1" 404 - http-bio-8080-exec-2 1
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:17:40:14 +0200] "GET /rest/personneinfo HTTP/1.1" 404 - http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:17:40:37 +0200] "GET /rest/myform.html HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:17:40:40 +0200] "GET /myform.html HTTP/1.1" 404 973 http-bio-8080-exec-5 4
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:17:40:57 +0200] "GET /rest/myform.html HTTP/1.1" 404 - http-bio-8080-exec-6 1
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:17:40:59 +0200] "GET /myform.html HTTP/1.1" 404 973 http-bio-8080-exec-7 0
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:17:41:02 +0200] "GET /myform HTTP/1.1" 404 963 http-bio-8080-exec-8 0
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:17:43:58 +0200] "GET /myform.html HTTP/1.1" 404 973 http-bio-8080-exec-10 1
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:17:45:38 +0200] "GET /myform.html HTTP/1.1" 200 495 http-bio-8080-exec-2 1
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:17:46:07 +0200] "POST /personneinfo HTTP/1.1" 500 1487 http-bio-8080-exec-2 4
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:17:46:45 +0200] "POST /personneinfo HTTP/1.1" 500 1735 http-bio-8080-exec-4 232
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:17:47:39 +0200] "POST /personneinfo HTTP/1.1" 200 - http-bio-8080-exec-1 1284
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:17:48:23 +0200] "POST /personneinfo HTTP/1.1" 200 - http-bio-8080-exec-2 136
