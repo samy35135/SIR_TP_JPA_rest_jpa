@@ -21,18 +21,18 @@ dao
 - PersonDAO.java #Traite les requêtes JPA propre à Perso
 
 metier
-- Chauffage.php
+- Chauffage.java
 - Equipement.java
-- FactoryData #Permet de générer des données pour remplir la base
+- FactoryData.java    #Permet de générer des données pour remplir la base
 - Home.java
-- PeripheriqueIntelligents.java #Abstract class
+- PeripheriqueIntelligents.java     #Abstract class
 - Person.java
 - View.java
 
 rest #Représente les urls possibles d’accès aux données
-- Rest_Person.java #Concerne l’accès aux urls de Person
-- Rest_Home.java #Concerne l’accès aux urls de Home
-- GenerateData.java #Permet de peupler la base
+- Rest_Person.java       #Concerne l’accès aux urls de Person
+- Rest_Home.java         #Concerne l’accès aux urls de Home
+- GenerateData.java      #Permet de peupler la base
 
 
 Pour faire tourner vous devez : 
