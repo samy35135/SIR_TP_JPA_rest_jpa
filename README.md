@@ -11,12 +11,9 @@ PARTIE - JPA - REST
 Bienvenue dans ce magnifique projet représentant un mini-jeu à faire en TP.
 Le projet n’est pas complet, nous avons essayé de montrer que nous étions capable de le produire en entier si nous avions assez de temps.
 
-TODO : 
- Faire schéma UML rapide
- 
- 
-Nous décidons d’exploiter la stratégie de faire une seule grande table unique.
 
+##### Présentation des packages :
+`
 ###### client  
     ├─ Main.java  : Main de l’application, notamment appelé à par GenerateData  
 
@@ -36,21 +33,21 @@ Nous décidons d’exploiter la stratégie de faire une seule grande table uniqu
     ├─ Rest_Person.java       : Concerne l’accès aux urls de Person  
     ├─ Rest_Home.java         : Concerne l’accès aux urls de Home  
     ├─  GenerateData.java     : Permet de peupler la base  
+`
 
-
-_Pour faire tourner vous devez_ : 
+##### Pour faire tourner vous devez : 
 - créer une Database « tp_sir_base »
 - importer le projet git sous eclipse
 
 
-Effectuer les modifications suivantes :
+##### Effectuer les modifications suivantes :
 - Dans le persistence.xml (/src/main/java/resources/META-INF/) 
   sous "<!--  éléments à modifier —>"
 - Mettre l’URL de votre base MYSQL à la place de « localhost:8889 » 
 - Pensez à changer les identifiants d’accès à la base
 - Attention au « update » à mettre en minuscule sous OSX. 
 
-A ce stade le projet est prêt à tourner.
+##### A ce stade le projet est prêt à tourner.
 - `tomcat7:run`
 - Aller dans l’url de votre navigateur à l’adresse indiquée par la console
 - Ajouter "/rest/person" à l’url et un message devra apparaître.
