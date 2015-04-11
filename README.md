@@ -1,8 +1,10 @@
 # SIR_TP_JPA_rest_jpa
 
 SIR_JPA
-/!\ Attention ce projet est lié au TP_angular, veuillez suivre les indications /!\
 
+/!\ Attention ce projet est lié au TP_angular, veuillez suivre les indications /!\ (pas encore fait)
+
+PARTIE - JPA - REST 
 
 Bienvenue dans ce magnifique projet représentant un mini-jeu à faire en TP.
 Le projet n’est pas complet, nous avons essayé de montrer que nous étions capable de le produire en entier si nous avions assez de temps.
@@ -57,3 +59,20 @@ A ce stade le projet est prêt à tourner.
 
 
 Maintenant que ce TP marche il vous reste  à mettre 20/20 !  
+
+
+
+PARTIE JPA - SERVLET 
+
+TODO : 
+Faire l'affichage des données grâce à une servlet qui remplit une page.
+
+
+Insérons un utilisateur en base de données :
+- "tomcat7:run"
+- Aller à l'url "http://localhost:8080/myform.html"  et remplissez le formulaire. (il n'y a aucune vérification sur la saisie des champs), appuyer sur "send"
+- Vous pouvez voir dans votre base le nouvel utilisateur.
+
+
+
+
