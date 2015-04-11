@@ -18,3 +18,11 @@
 0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:12:20:55 +0200] "GET /rest/personne/id/-1 HTTP/1.1" 204 - http-bio-8080-exec-1 310
 0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:12:20:59 +0200] "GET /rest/personne/id/0 HTTP/1.1" 204 - http-bio-8080-exec-3 412
 0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:12:21:01 +0200] "GET /rest/personne/id/1 HTTP/1.1" 200 755 http-bio-8080-exec-4 624
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:15:02:46 +0200] "GET /rest/personne/id/1 HTTP/1.1" 500 10320 http-bio-8080-exec-1 765
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:15:05:06 +0200] "GET /rest/personne/id/1 HTTP/1.1" 500 10284 http-bio-8080-exec-1 1189
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:15:10:54 +0200] "GET /rest/person HTTP/1.1" 404 - http-bio-8080-exec-1 93
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:15:11:02 +0200] "GET /rest/personne/ HTTP/1.1" 200 48 http-bio-8080-exec-2 11
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:15:11:13 +0200] "GET /rest/personne/id/5 HTTP/1.1" 500 10368 http-bio-8080-exec-3 1210
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:15:23:38 +0200] "GET /rest/personne/id/5 HTTP/1.1" 200 175 http-bio-8080-exec-1 2811
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:15:23:43 +0200] "GET /rest/personne/id/0 HTTP/1.1" 204 - http-bio-8080-exec-2 372
+0:0:0:0:0:0:0:1%0 - - [11/Apr/2015:15:23:47 +0200] "GET /rest/personne/id/1 HTTP/1.1" 200 755 http-bio-8080-exec-3 296

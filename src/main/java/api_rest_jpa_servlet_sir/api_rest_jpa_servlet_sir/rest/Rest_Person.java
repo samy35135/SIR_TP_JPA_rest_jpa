@@ -26,7 +26,7 @@ public class Rest_Person {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Person getUserById(@PathParam("personneid") int personid) {
 		EntityManagerFactory factory = Persistence
-				.createEntityManagerFactory("Abh_Col_SIR_TP_JPA");
+				.createEntityManagerFactory("Abh_Col_SIR_TP_JPA_REST_SERVLET");
 		EntityManager manager = factory.createEntityManager();
 		return PersonDAO.getPersonId(manager, personid);
 	}

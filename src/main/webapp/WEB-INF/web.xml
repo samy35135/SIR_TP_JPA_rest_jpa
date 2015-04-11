@@ -8,7 +8,7 @@
 		<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
 		<init-param>
 			<param-name>com.sun.jersey.config.property.packages</param-name>
-			<param-value>api_rest_jpa_sir.api_rest_jpa_sir.rest</param-value>
+			<param-value>api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.rest</param-value>
 		</init-param>
 		<init-param>
 			<param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>

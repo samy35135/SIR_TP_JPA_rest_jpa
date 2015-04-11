@@ -11,7 +11,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// Génération de l'entity manager
-		EntityManagerFactory factory = Persistence.createEntityManagerFactory("Abh_Col_SIR_TP_JPA");
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("Abh_Col_SIR_TP_JPA_REST_SERVLET");
 		EntityManager manager = factory.createEntityManager();
 		FactoryData usine = new FactoryData(manager);
 		//View vue = new View(manager);
