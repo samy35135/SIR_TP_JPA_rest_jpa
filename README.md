@@ -54,3 +54,6 @@ A ce stade le projet est prêt à tourner.
 - Peuplons la base : «/rest/generateData/main » 
 - Vous pouvez alors voir dans votre base les données enregistrés en base.
 - Maintenant nous pouvons aussi la consulter via l’url : "rest/personne/id/1" 
+
+
+Maintenant que ce TP marche il vous reste  à mettre 20/20 ! 
