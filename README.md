@@ -38,7 +38,8 @@ Pour faire tourner vous devez :
 
 
 Effectuer les modifications suivantes :
-- Dans le persistence.xml (/src/main/java/resources/META-INF/) sous "<!--  éléments à modifier —> »
+- Dans le persistence.xml (/src/main/java/resources/META-INF/) 
+  sous "<!--  éléments à modifier —>"
 - Mettre l’URL de votre base MYSQL à la place de « localhost:8889 » 
 - Pensez à changer les identifiants d’accès à la base
 - Attention au « update » à mettre en minuscule sous OSX. 
