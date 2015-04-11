@@ -18,7 +18,7 @@ TODO :
 Nous décidons d’exploiter la stratégie de faire une seule grande table unique.
 
 ├─ client  
-    ├─ Main.java  : Main de l’application, notamment appelé à par GenerateData  
+       ├─ Main.java  : Main de l’application, notamment appelé à par GenerateData  
 
 ─ dao  
     ├─ PersonDAO.java : Traite les requêtes JPA propre à Perso  
