@@ -56,7 +56,7 @@ Le projet n’est pas complet, nous avons essayé de montrer que nous étions ca
 - Maintenant nous pouvons aussi la consulter via l’url : "rest/personne/id/1" 
 
 
-Maintenant que ce TP marche il vous reste  à mettre 20/20 !  
+Maintenant que ce TP marche, il vous reste  à mettre 20/20 !  
 
 
 
