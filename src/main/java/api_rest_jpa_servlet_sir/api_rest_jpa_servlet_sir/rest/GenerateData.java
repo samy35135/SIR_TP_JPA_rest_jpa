@@ -1,11 +1,11 @@
-package api_rest_jpa_sir.api_rest_jpa_sir.rest;
+package api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.rest;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import api_rest_jpa_sir.api_rest_jpa_sir.client.Main;
+import api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.client.Main;
 @Path("/generatedata")
 public class GenerateData {
 	@GET

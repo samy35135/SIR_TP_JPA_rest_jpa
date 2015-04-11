@@ -1,11 +1,8 @@
-package api_rest_jpa_sir.api_rest_jpa_sir.metier;
+package api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.metier;
 
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
-/*import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-*/
+
 
 @Entity
 @DiscriminatorValue("Equipement")

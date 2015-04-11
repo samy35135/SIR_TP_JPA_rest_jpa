@@ -1,5 +1,5 @@
-package api_rest_jpa_sir.api_rest_jpa_sir.metier;
-
+package api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.metier;
+s
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

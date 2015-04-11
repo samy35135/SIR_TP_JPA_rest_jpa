@@ -1,9 +1,9 @@
-package api_rest_jpa_sir.api_rest_jpa_sir.dao;
+package api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
 
-import api_rest_jpa_sir.api_rest_jpa_sir.metier.Person;
+import api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.metier.Person;
 
 
 

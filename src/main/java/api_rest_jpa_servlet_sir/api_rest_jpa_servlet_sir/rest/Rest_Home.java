@@ -1,5 +1,4 @@
-package api_rest_jpa_sir.api_rest_jpa_sir.rest;
-
+package api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.rest;
 import java.util.ArrayList;
 
 import javax.ws.rs.GET;
@@ -7,10 +6,10 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import api_rest_jpa_sir.api_rest_jpa_sir.metier.Chauffage;
-import api_rest_jpa_sir.api_rest_jpa_sir.metier.Equipement;
-import api_rest_jpa_sir.api_rest_jpa_sir.metier.Home;
-import api_rest_jpa_sir.api_rest_jpa_sir.metier.PeripheriquesIntelligents;
+import api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.metier.Chauffage;
+import api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.metier.Equipement;
+import api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.metier.Home;
+import api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.metier.PeripheriquesIntelligents;
 @Path("/home")
 public class Rest_Home {
 	@GET

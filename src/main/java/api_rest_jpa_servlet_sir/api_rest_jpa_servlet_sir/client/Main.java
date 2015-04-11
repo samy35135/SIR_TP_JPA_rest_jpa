@@ -1,22 +1,13 @@
-package api_rest_jpa_sir.api_rest_jpa_sir.client;
-
-import java.util.Date;
+package api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.client;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
-import api_rest_jpa_sir.api_rest_jpa_sir.metier.FactoryData;
-import api_rest_jpa_sir.api_rest_jpa_sir.metier.Person;
+import api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.metier.FactoryData;
 
 public class Main {
-
-	private EntityManager manager;
-
-	public Main(EntityManager manager) {
-		this.manager = manager;
-	}
 
 	public static void main(String[] args) {
 		// Génération de l'entity manager

@@ -1,4 +1,4 @@
-package api_rest_jpa_sir.api_rest_jpa_sir.rest;
+package api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.rest;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -8,8 +8,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import api_rest_jpa_sir.api_rest_jpa_sir.dao.PersonDAO;
-import api_rest_jpa_sir.api_rest_jpa_sir.metier.Person;
+import api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.dao.PersonDAO;
+import api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.metier.Person;
 
 
 @Path("/personne")
