@@ -17,7 +17,7 @@ TODO :
  
 Nous décidons d’exploiter la stratégie de faire une seule grande table unique.
 
-### client  
+###### client  
     ├─ Main.java  : Main de l’application, notamment appelé à par GenerateData  
 
 ### dao  
