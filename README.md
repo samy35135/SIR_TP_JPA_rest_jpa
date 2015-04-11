@@ -1,10 +1,12 @@
 # SIR_TP_JPA_rest_jpa
 
 SIR_JPA
+=====================
 
 /!\ Attention ce projet est lié au TP_angular, veuillez suivre les indications /!\ (pas encore fait)
 
 PARTIE - JPA - REST 
+--------------------
 
 Bienvenue dans ce magnifique projet représentant un mini-jeu à faire en TP.
 Le projet n’est pas complet, nous avons essayé de montrer que nous étions capable de le produire en entier si nous avions assez de temps.
@@ -63,6 +65,7 @@ Maintenant que ce TP marche il vous reste  à mettre 20/20 !
 
 
 PARTIE JPA - SERVLET 
+--------------------
 
 TODO : 
 Faire l'affichage des données grâce à une servlet qui remplit une page.
