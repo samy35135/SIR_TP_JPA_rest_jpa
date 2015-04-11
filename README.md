@@ -50,7 +50,7 @@ Effectuer les modifications suivantes :
 - Attention au « update » à mettre en minuscule sous OSX. 
 
 A ce stade le projet est prêt à tourner.
-- tomcat7:run
+- `tomcat7:run`
 - Aller dans l’url de votre navigateur à l’adresse indiquée par la console
 - Ajouter "/rest/person" à l’url et un message devra apparaître.
 - Peuplons la base : «/rest/generateData/main » 
@@ -69,7 +69,7 @@ Faire l'affichage des données grâce à une servlet qui remplit une page.
 
 
 Insérons un utilisateur en base de données :
-- "tomcat7:run"
+- `tomcat7:run`
 - Aller à l'url "http://localhost:8080/myform.html"  et remplissez le formulaire. (il n'y a aucune vérification sur la saisie des champs), appuyer sur "send"
 - Vous pouvez voir dans votre base le nouvel utilisateur.
 
