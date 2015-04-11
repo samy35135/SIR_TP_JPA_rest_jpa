@@ -1,0 +1,6 @@
+127.0.0.1 - - [07/Apr/2015:23:14:07 +0200] "GET /rest/ HTTP/1.1" 404 - http-bio-8080-exec-1 44
+127.0.0.1 - - [07/Apr/2015:23:14:18 +0200] "GET /rest/jeu HTTP/1.1" 200 30 http-bio-8080-exec-2 6
+127.0.0.1 - - [07/Apr/2015:23:14:41 +0200] "GET /rest/jeu/generateData HTTP/1.1" 500 3522 http-bio-8080-exec-3 234
+127.0.0.1 - - [07/Apr/2015:23:16:13 +0200] "GET /rest/jeu/generateData HTTP/1.1" 500 14389 http-bio-8080-exec-1 1255
+127.0.0.1 - - [07/Apr/2015:23:21:14 +0200] "GET /rest/jeu/generateData HTTP/1.1" 500 14389 http-bio-8080-exec-1 1209
+127.0.0.1 - - [07/Apr/2015:23:26:19 +0200] "GET /rest/jeu/generateData HTTP/1.1" 200 14 http-bio-8080-exec-1 1486
