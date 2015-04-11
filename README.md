@@ -19,6 +19,7 @@ client
 
 dao
 - PersonDAO.java #Traite les requêtes JPA propre à Perso
+
 metier
 - Chauffage.php
 - Equipement.java
@@ -27,6 +28,7 @@ metier
 - PeripheriqueIntelligents.java #Abstract class
 - Person.java
 - View.java
+
 rest #Représente les urls possibles d’accès aux données
 - Rest_Person.java #Concerne l’accès aux urls de Person
 - Rest_Home.java #Concerne l’accès aux urls de Home
