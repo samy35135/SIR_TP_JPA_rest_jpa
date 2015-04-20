@@ -69,7 +69,7 @@ Faire l'affichage des données grâce à une servlet qui remplit une page.
 
 Insérons un utilisateur en base de données :
 - `tomcat7:run`
-- La liste des personnes ins�r�es dans la base � l'adresse : "http://localhost:8080/personneinfo".
+- La liste des personnes insérées dans la base à l'adresse : "http://localhost:8080/personneinfo".
 - Aller à l'url "http://localhost:8080/myform.html"  et remplissez le formulaire. (il n'y a aucune vérification sur la saisie des champs), appuyer sur "send"
 - Vous pouvez voir dans votre base le nouvel utilisateur.
 
