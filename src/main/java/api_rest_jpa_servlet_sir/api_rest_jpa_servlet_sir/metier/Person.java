@@ -17,8 +17,8 @@ import javax.persistence.TemporalType;
 @Entity
 public class Person {
 	private int id;
-	private String prenom;
 	private String nom;
+	private String prenom;
 	private String adressmail;
 	private char sexe; //'F'
 	private Date date_naissance;
@@ -31,11 +31,11 @@ public class Person {
 	/**
 	 * Constructeur utilisé dans le cadre de la webapp
 	 */
-	public Person(String prenom, String nom, String adressmail, char sexe,
+	public Person(String nom, String prenom, String adressmail, char sexe,
 			Date date_naissance, String loginFB) {
-		super();
-		this.prenom = prenom;
+		super();	
 		this.nom = nom;
+		this.prenom = prenom;
 		this.adressmail = adressmail;
 		this.sexe = sexe;
 		this.date_naissance = date_naissance;

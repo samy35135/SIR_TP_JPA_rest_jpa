@@ -69,7 +69,7 @@ Faire l'affichage des donnÃ©es grÃ¢ce Ã  une servlet qui remplit une page.
 
 InsÃ©rons un utilisateur en base de donnÃ©es :
 - `tomcat7:run`
-- La liste des personnes insérer dans la base à l'adresse : "http://localhost:8080/personneinfo".
+- La liste des personnes insérées dans la base à l'adresse : "http://localhost:8080/personneinfo".
 - Aller Ã  l'url "http://localhost:8080/myform.html"  et remplissez le formulaire. (il n'y a aucune vÃ©rification sur la saisie des champs), appuyer sur "send"
 - Vous pouvez voir dans votre base le nouvel utilisateur.
 
