@@ -51,7 +51,7 @@ Le projet n’est pas complet, nous avons essayé de montrer que nous étions ca
 - `tomcat7:run`
 - Aller dans l’url de votre navigateur à l’adresse indiquée par la console
 - Ajouter "/rest/personne" à l’url et un message devra apparaître.
-- Peuplons la base : «/rest/generateData/main » 
+- Peuplons la base : «/rest/generatedata/main » 
 - Vous pouvez alors voir dans votre base les données enregistrés en base.
 - Maintenant nous pouvons aussi la consulter via l’url : "rest/personne/id/1" 
 
