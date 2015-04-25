@@ -14,7 +14,7 @@
 			<!--  éléments à modifier -->
 			<property name="hibernate.connection.url" value="jdbc:mysql://localhost:8889/tp_abh_coll" />
 			<property name="hibernate.connection.username" value="root" />
-			<property name="hibernate.connection.password" value="password" />
+			<property name="hibernate.connection.password" value="root" />
 			<property name="hibernate.hbm2ddl.auto" value="update" />
 		</properties>
 	</persistence-unit>
