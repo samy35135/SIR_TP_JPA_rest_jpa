@@ -20,7 +20,7 @@ public class Person {
 	private String nom;
 	private String prenom;
 	private String adressmail;
-	private char sexe; //'F'
+	private String sexe; //'F'
 	private Date date_naissance;
 	private String loginFB;
 	private List<Home> listMaison = new ArrayList<Home>();
@@ -31,7 +31,7 @@ public class Person {
 	/**
 	 * Constructeur utilisé dans le cadre de la webapp
 	 */
-	public Person(String nom, String prenom, String adressmail, char sexe,
+	public Person(String nom, String prenom, String adressmail, String sexe,
 			Date date_naissance, String loginFB) {
 		super();	
 		this.nom = nom;
@@ -70,11 +70,11 @@ public class Person {
 	public void setAdressmail(String adressmail) {
 		this.adressmail = adressmail;
 	}
-	public char getSexe() {
+	public String getSexe() {
 		return sexe;
 	}
-	public void setSexe(char sexe) {
-		this.sexe = sexe;
+	public void setSexe(String sexe) {
+		this.sexe = "" + sexe;
 	}
 	@Temporal(TemporalType.DATE)
 	public Date getDate_naissance() {
@@ -108,4 +108,8 @@ public class Person {
 		this.friends = friends;
 	}
 	
+	public String toString(){
+		return "id :" + id + "\nNom :"+ nom;
+	}
+
 }

@@ -55,7 +55,7 @@ public class FactoryData {
 			personne = new Person();
 			personne.setNom("Fabrice");
 			personne.setPrenom("laporte");
-			personne.setSexe('M');
+			personne.setSexe("M");
 			personne.setLoginFB("FB");
 			personne.setDate_naissance(new Date("10/12/1988"));
 			personne.setAdressmail("fablp@laorte.com");
@@ -63,7 +63,7 @@ public class FactoryData {
 			personne2 = new Person();
 			personne2.setNom("Marc");
 			personne2.setPrenom("hippolyte");
-			personne2.setSexe('M');
+			personne2.setSexe("M");
 			personne2.setLoginFB("Mhipo");
 			personne2.setDate_naissance(new Date("10/12/1988"));
 			personne2.setAdressmail("mhypop@laorte.com");
@@ -71,7 +71,7 @@ public class FactoryData {
 			personne3 = new Person();
 			personne3.setNom("Coste");
 			personne3.setPrenom("Marjorie");
-			personne3.setSexe('F');
+			personne3.setSexe("F");
 			personne3.setLoginFB("Mo");
 			personne3.setDate_naissance(new Date("10/12/1988"));
 			personne3.setAdressmail("marjorie@coste.com");

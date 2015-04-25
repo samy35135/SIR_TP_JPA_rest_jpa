@@ -1,12 +1,16 @@
 package api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.rest;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 
 import api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.dao.PersonDAO;
 import api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.metier.Person;
@@ -18,7 +22,7 @@ public class Rest_Person {
     @Produces(MediaType.TEXT_PLAIN)
     public String sayHello() {
         return "Hello, sublime projet par Abh et Coll";
-    }
+    } 
 
 	
 	@GET
@@ -31,6 +35,24 @@ public class Rest_Person {
 		return PersonDAO.getPersonId(manager, personid);
 	}
 	
+	@POST
+	@Path("/insererpersonne")
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Response insertUser(Person person){
+		EntityManagerFactory factory = Persistence
+				.createEntityManagerFactory("Abh_Col_SIR_TP_JPA_REST_SERVLET");
+		EntityManager manager = factory.createEntityManager();
+		
+		EntityTransaction tx = manager.getTransaction();
+		tx.begin();
+
+		manager.persist(person);
+		
+		tx.commit();
+		
+		return Response.status(200).entity(true).build();
+	}
 
 }
 
