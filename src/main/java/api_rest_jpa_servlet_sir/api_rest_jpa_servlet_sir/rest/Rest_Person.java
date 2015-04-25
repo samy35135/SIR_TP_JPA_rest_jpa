@@ -37,7 +37,6 @@ public class Rest_Person {
 	
 	@POST
 	@Path("/insererpersonne")
-	@Produces(MediaType.APPLICATION_JSON)
 	@Consumes(MediaType.APPLICATION_JSON)
 	public Response insertUser(Person person){
 		EntityManagerFactory factory = Persistence
