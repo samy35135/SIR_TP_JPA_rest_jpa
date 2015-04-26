@@ -1,4 +1,6 @@
 package api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.rest;
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
@@ -22,13 +24,22 @@ public class Rest_Person {
     @Produces(MediaType.TEXT_PLAIN)
     public String sayHello() {
         return "Hello, sublime projet par Abh et Coll";
-    } 
+    }
 
+	@GET
+	@Path("personnes")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Person> getPersons(){
+		EntityManagerFactory factory = Persistence
+				.createEntityManagerFactory("Abh_Col_SIR_TP_JPA_REST_SERVLET");
+		EntityManager manager = factory.createEntityManager();
+		return PersonDAO.getPersons(manager);
+	}
 	
 	@GET
 	@Path("/id/{personneid}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Person getUserById(@PathParam("personneid") int personid) {
+	public Person getPeronById(@PathParam("personneid") int personid) {
 		EntityManagerFactory factory = Persistence
 				.createEntityManagerFactory("Abh_Col_SIR_TP_JPA_REST_SERVLET");
 		EntityManager manager = factory.createEntityManager();
@@ -38,7 +49,7 @@ public class Rest_Person {
 	@POST
 	@Path("/insererpersonne")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Response insertUser(Person person){
+	public Response insertPerson(Person person){
 		EntityManagerFactory factory = Persistence
 				.createEntityManagerFactory("Abh_Col_SIR_TP_JPA_REST_SERVLET");
 		EntityManager manager = factory.createEntityManager();

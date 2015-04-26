@@ -1,5 +1,7 @@
 package api_rest_jpa_servlet_sir.api_rest_jpa_servlet_sir.dao;
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
 
@@ -11,6 +13,7 @@ public class PersonDAO {
 	
 	private static String queryById = "SELECT p from Person p "
 			+ " WHERE id = :personid ";
+	private static String queryPerson = "SELECT p from Person p";
 	/**
 	 * Récupère un utilisateur dans la base grace à son id
 	 * @param manager
@@ -26,4 +29,17 @@ public class PersonDAO {
 			return null;
 		}
 	}
+	
+	public static List<Person> getPersons(EntityManager manager) {
+		try {
+			List<Person> personnes = manager.createQuery(queryPerson, Person.class).getResultList();
+			return personnes;
+		} catch (NoResultException e) {
+			return null;
+		}
+	}
+	
+	
 }
+
+

@@ -63,7 +63,7 @@ public class PersonneInfo extends HttpServlet {
 		@SuppressWarnings("deprecation")
 		Date datenaissance =  new Date(req.getParameter("datenaissance"));
 		String adresseemail = req.getParameter("email");
-		char sexe = req.getParameter("sexe").charAt(0); 
+		String sexe = req.getParameter("sexe"); 
 		String loginFb = req.getParameter("loginFb");
 		
 		
@@ -82,7 +82,7 @@ public class PersonneInfo extends HttpServlet {
 		tx.begin();
 		manager.persist(user);
 		tx.commit();
-		//redirection vers la liste des personnes enregistrées en base
+		//redirection vers la liste des personnes enregistrï¿½es en base
 		this.doGet(req,resp);
 		
 	//	super.doPost(req,resp);
