@@ -3,7 +3,10 @@
 SIR_JPA
 =====================
 
-/!\ Attention ce projet est lié au TP_angular, veuillez suivre les indications /!\ (pas encore fait)
+/!\ Attention ce projet est lié au TP_angular, veuillez suivre les indications /!\
+Une fois que la partie JPA - REST tourne, vous pouvez faire tourner l'application angular disponible ici :
+https://github.com/samy35135/TP_SIR_ANGULAR
+
 
 PARTIE - JPA - REST 
 --------------------
@@ -18,7 +21,7 @@ Le projet n’est pas complet, nous avons essayé de montrer que nous étions ca
     ├─ Main.java  : Main de l’application, notamment appelé à par GenerateData  
 
 ###### dao  
-    ├─ PersonDAO.java : Traite les requêtes JPA propre à Perso  
+    ├─ PersonDAO.java : Traite les requêtes JPA propre à Person  
  
 ###### metier  
     ├─ Chauffage.java  
@@ -35,7 +38,7 @@ Le projet n’est pas complet, nous avons essayé de montrer que nous étions ca
     ├─  GenerateData.java     : Permet de peupler la base  
 `
 
-##### Pour faire tourner vous devez : 
+##### Pour faire tourner le projet vous devez : 
 - créer une Database « tp_sir_base »
 - importer le projet git sous eclipse
 
@@ -62,10 +65,6 @@ Maintenant que ce TP marche, il vous reste  à mettre 20/20 !
 
 PARTIE JPA - SERVLET 
 --------------------
-
-TODO : 
-Faire l'affichage des données grâce à une servlet qui remplit une page.
-
 
 Insérons un utilisateur en base de données :
 - `tomcat7:run`
